@@ -1,0 +1,1 @@
+(function(t){t(document).ready(function(){t('.toolbar-tray-horizontal li.menu-item--expanded, .toolbar-tray-horizontal ul li.menu-item--expanded .menu-item').hoverIntent({over:function(){t(this).parent().find('li').removeClass('hover-intent');t(this).addClass('hover-intent')},out:function(){t(this).removeClass('hover-intent')},timeout:250})})})(jQuery);

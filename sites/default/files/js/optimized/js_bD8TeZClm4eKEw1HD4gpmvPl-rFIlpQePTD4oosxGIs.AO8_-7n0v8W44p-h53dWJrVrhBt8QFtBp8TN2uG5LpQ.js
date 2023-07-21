@@ -1,0 +1,1 @@
+(function(i,n){'use strict';n.behaviors.d_geysir={attach:function(n,t){i('.geysir-add-type',n).on('click',function(){i(this).find('input[name="op"]').mousedown()})}}})(jQuery,Drupal);

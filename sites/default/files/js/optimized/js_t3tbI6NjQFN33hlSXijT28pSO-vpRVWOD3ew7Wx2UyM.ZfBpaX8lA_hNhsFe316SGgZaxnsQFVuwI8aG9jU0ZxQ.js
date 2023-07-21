@@ -1,0 +1,1 @@
+(function(i,e){'use strict';e.behaviors.d_p_side_by_side={attach:function(e,n){var r=i('.d-p-side-by-side .items',e);r.find('.items-wrapper .list-item-wrapper').each(function(e,n){var r=i(this);if(r.find('.image-background-container').length){r.find('.user-image-background').css('background-color','unset')}})}}})(jQuery,Drupal);

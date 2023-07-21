@@ -1,0 +1,3 @@
+(function(a,s){var r=a('body'),e=a('.toolbar-icon-geysir');if(localStorage.getItem('Drupal.geysir.toggle')!==null){e.addClass('is-active')}
+else{a('div[data-geysir-paragraph-id]').removeClass('geysir-field-paragraph-wrapper');r.addClass('geysir-off')};e.on('click',function(){r.toggleClass('geysir-off');if(r.hasClass('geysir-off')){a('div[data-geysir-paragraph-id]').removeClass('geysir-field-paragraph-wrapper');e.removeClass('is-active');localStorage.removeItem('Drupal.geysir.toggle')}
+else{a('div[data-geysir-paragraph-id]').addClass('geysir-field-paragraph-wrapper');e.addClass('is-active');localStorage.setItem('Drupal.geysir.toggle','on')}})})(jQuery,Drupal);
