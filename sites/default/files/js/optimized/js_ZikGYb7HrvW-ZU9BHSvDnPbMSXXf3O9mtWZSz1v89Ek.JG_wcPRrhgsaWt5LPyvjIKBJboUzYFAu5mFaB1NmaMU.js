@@ -1,2 +1,0 @@
-(function(f,i){'use strict';i.behaviors.dpColorpicker={attach:function(i,e){f(i).ready(function(){f('.form-type-d-color',i).once('d_color_picker').each(function(){var e=f(this),r=e.children('.form-d-color').first();r.change(function(){if(f(this).val()==='#ffffff'){i.hide()}
-else if(i.is(':hidden')){i.show()}});var i=e.children('#reset-button').first();i.click(function(i){i.preventDefault();r.val('#ffffff');f(this).hide()})})})}}})(jQuery,Drupal);

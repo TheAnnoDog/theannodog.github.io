@@ -1,1 +1,0 @@
-(function(a,t){t.behaviors.pathDetailsSummaries={attach:function(i){a(i).find('.path-form').drupalSetSummary(function(a){var i=document.querySelector('.js-form-item-path-0-alias input'),r=i&&i.value;return r?t.t('Alias: @alias',{'@alias':r}):t.t('No alias')})}}})(jQuery,Drupal);

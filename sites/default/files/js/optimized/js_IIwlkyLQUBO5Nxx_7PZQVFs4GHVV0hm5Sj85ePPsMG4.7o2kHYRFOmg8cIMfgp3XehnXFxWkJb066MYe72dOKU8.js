@@ -1,1 +1,0 @@
-(function(t){t.theme.mediaEmbedEditButton=function(){return'<button class="media-library-item__edit">'.concat(t.t('Edit media'),'</button>')}})(Drupal);

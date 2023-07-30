@@ -1,1 +1,0 @@
-(function(o,a){a.AjaxCommands.prototype.editorDialogSave=function(e,a,i){o(window).trigger('editor:dialogsave',[a.values])}})(jQuery,Drupal);
