@@ -1,4 +1,4 @@
 
 
     window.silex = window.silex || {}
-    window.silex.data = {"site":{"width":1200},"pages":[{"id":"page-kuropper","displayName":"Kuropper","link":{"linkType":"LinkTypePage","href":"#!page-kuropper"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false}]}
+    window.silex.data = {"site":{"width":1199},"pages":[{"id":"page-kuropper","displayName":"Kuropper","link":{"linkType":"LinkTypePage","href":"#!page-kuropper"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-extended-bio","displayName":"Extended Bio","link":{"linkType":"LinkTypePage","href":"#!page-extended-bio"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false},{"id":"page-404","displayName":"404","link":{"linkType":"LinkTypePage","href":"#!page-404"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true}]}
